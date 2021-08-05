@@ -1,12 +1,13 @@
 # SIEM---SPLUNK
+![image](https://user-images.githubusercontent.com/52188500/128276317-636c8e86-5a40-422f-b47d-24a1efa8b9f0.png)
 
 ## 1. Giới thiệu về lab
   Sử dụng Splunk để phát hiện tấn công hệ thống website như: XSS, SQL Injection, Code Injection, System Intrusion.
 ## 2. Các chức năng sử dụng trên Splunk
-  Monitor: upload đường dẫn các file logs.
-  Search: tìm kiếm, phân tích, phát hiện tấn công.
-  Alert: gửi cảnh báo về telegram thông qua con bot telegram.
-  Dashboard: hiển thị dưới dạng biểu đồ và các thông số. Dễ dàng theo dõi và phát hiện các rũi ro kiệp thời.
+    Monitor: upload đường dẫn các file logs.</br>
+    Search: tìm kiếm, phân tích, phát hiện tấn công.</br>
+    Alert: gửi cảnh báo về telegram thông qua con bot telegram.</br>
+    Dashboard: hiển thị dưới dạng biểu đồ và các thông số. Dễ dàng theo dõi và phát hiện các rủi ro kịp thời.
 ## 3. Thực hiện
   ### 3.1. Môi trường
     Sử dụng máy ảo Ubuntu 20.04 để cài đặt Splunk, webservice (trang bị hệ thống ghi logs vào /var/log/webvuln.log), audit log (/var/log/audit/audit.log).
