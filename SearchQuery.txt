@@ -1,0 +1,11 @@
+Detected Remote Code Execution attack
+(source = "/var/log/webvuln.log" AND "RCE attack") 
+
+Detected System intrusion
+(source = "/var/log/audit/audit.log" AND ("uid=33*"   OR "type=EXECVE*"))
+
+Detected SQL Injection attack
+source = "/var/log/webvuln.log"  "SQLI attack"
+
+Detected XSS attack
+source = "/var/log/webvuln.log"  "XSS attack"
